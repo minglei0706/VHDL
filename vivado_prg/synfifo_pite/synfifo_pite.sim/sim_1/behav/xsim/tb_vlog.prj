@@ -1,0 +1,12 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../../../../share/codes/4.2_sync_fifo/sync_fifo.v" \
+
+sv xil_defaultlib  \
+"../../../../../../../share/codes/4.2_sync_fifo/tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

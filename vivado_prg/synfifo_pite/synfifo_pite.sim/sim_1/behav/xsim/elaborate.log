@@ -1,0 +1,20 @@
+Vivado Simulator v2024.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: D:/Xlinx/Vivado/2024.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_behav xil_defaultlib.tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 3 for port 'cfg_almost_full' [C:/Users/mingl/Desktop/test/share/codes/4.2_sync_fifo/tb.v:155]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 3 for port 'cfg_almost_empty' [C:/Users/mingl/Desktop/test/share/codes/4.2_sync_fifo/tb.v:156]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 4 for port 'fifo_num' [C:/Users/mingl/Desktop/test/share/codes/4.2_sync_fifo/tb.v:161]
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "C:/Users/mingl/Desktop/test/share/codes/4.2_sync_fifo/sync_fifo.v" Line 1. Module sync_fifo doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/mingl/Desktop/test/share/codes/4.2_sync_fifo/sync_fifo.v" Line 1. Module sync_fifo doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.sync_fifo
+Compiling module xil_defaultlib.tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_behav

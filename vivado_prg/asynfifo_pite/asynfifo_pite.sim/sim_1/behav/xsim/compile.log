@@ -1,0 +1,6 @@
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/mingl/Desktop/test/share/codes/4.3_afifo/afifo.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module afifo
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/mingl/Desktop/test/share/codes/4.3_afifo/tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mingl/Desktop/test/VHDL/vivado_prg/asynfifo_pite/asynfifo_pite.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
